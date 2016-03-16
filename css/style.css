@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Raleway);
+.container { width: 1440px; overflow: hidden; margin: 0 auto; max-width: 100%; }
+@media (max-width: 1050px) { .container { width: 96%; } }
+
+.grid_1 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 4.66667%; }
+@media (max-width: 767px) { .grid_1 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_2 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 11.33333%; }
+@media (max-width: 767px) { .grid_2 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_3 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 18.0%; }
+@media (max-width: 767px) { .grid_3 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_4 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 24.66667%; }
+@media (max-width: 767px) { .grid_4 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_5 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 31.33333%; }
+@media (max-width: 767px) { .grid_5 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_6 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 38%; }
+@media (max-width: 767px) { .grid_6 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_7 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 44.66667%; }
+@media (max-width: 767px) { .grid_7 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_8 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 51.33333%; }
+@media (max-width: 767px) { .grid_8 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_9 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 58.0%; }
+@media (max-width: 767px) { .grid_9 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_10 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 64.66667%; }
+@media (max-width: 767px) { .grid_10 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_11 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 71.33333%; }
+@media (max-width: 767px) { .grid_11 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_12 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 78%; }
+@media (max-width: 767px) { .grid_12 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_13 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 84.66667%; }
+@media (max-width: 767px) { .grid_13 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_14 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 91.33333%; }
+@media (max-width: 767px) { .grid_14 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_third { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 31.33333%; }
+@media (max-width: 767px) { .grid_third { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.grid_two_third { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 64.66667%; }
+@media (max-width: 767px) { .grid_two_third { float: none; width: auto; display: block; margin-bottom: 1em; } }
+
+.alpha { margin-left: 0; }
+
+.omega { margin-right: 0; }
+
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+/* Reset */
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+body { font-family: Raleway, Arial, sans-serif; font-size: .9em; color: #5a5a5a; }
+
+img { max-width: 100%; }
+
+#mainContent { max-width: 1440px; width: 100%; margin: 0 auto; }
+#mainContent h2 { font-family: Lora, Times, serif; text-transform: uppercase; font-size: 2em; margin-bottom: 15px; }
+#mainContent h3 { text-transform: uppercase; margin-bottom: 15px; }
+
+header { text-transform: uppercase; position: relative; }
+header h1 { visibility: hidden; margin: 0; padding: 0; font-size: 0; }
+header #headerMenu { position: absolute; top: 50px; left: 50px; padding: 15px; width: 150px; height: 150px; background: rgba(250, 250, 250, 0.7); color: #5a5a5a; font-size: .9em; }
+@media (max-width: 1050px) { header #headerMenu { top: 0; left: 0; width: 100%; height: auto; position: relative; } }
+header #headerMenu p, header #headerMenu div { display: inline-block; vertical-align: middle; margin-top: 25%; }
+@media (max-width: 1050px) { header #headerMenu p, header #headerMenu div { margin-top: 0; } }
+header #headerMenu p { width: 66%; }
+header #headerMenu div { font-size: 4em; font-weight: bold; margin-right: 10px; }
+header p#headline { color: #FFF; text-align: center; text-shadow: 1px 1px 3px #000; top: 38%; width: 100%; position: absolute; }
+header p#headline span { display: block; }
+header p#headline span:first-child { font-family: Lora, Times, serif; font-size: 6.5em; line-height: 1em; }
+header p#headline span:last-child { max-width: 30%; margin: 0 auto; }
+@media (max-width: 1050px) { header p#headline span:last-child { max-width: 50%; } }
+
+div#block1 { float: left; display: inline; margin-left: 1%; margin-right: 1%; position: relative; width: 71.33333%; left: 13.33333%; margin-bottom: 8%; }
+@media (max-width: 767px) { div#block1 { float: none; width: auto; display: block; margin-bottom: 1em; } }
+@media (max-width: 767px) { div#block1 { left: auto; } }
+div#block1 .blockImg { margin-top: -45px; margin-right: 30px; position: relative; max-width: 45%; display: inline-block; }
+@media (max-width: 1050px) { div#block1 .blockImg { max-width: 35%; margin-top: 50px; float: left; } }
+@media (max-width: 767px) { div#block1 .blockImg { display: none; } }
+div#block1 .blockImg div { position: absolute; background: rgba(250, 250, 250, 0.8); width: 100%; bottom: 0; padding: 20px; }
+div#block1 .blockParagraph { line-height: 1.5em; max-width: 48%; display: inline-block; vertical-align: top; }
+@media (max-width: 1050px) { div#block1 .blockParagraph { display: inline; } }
+div#block1 .blockParagraph h2 { margin-top: 50px; }
+div#block1 .blockParagraph p { margin: 5px 0; }
+div#block1 .blockParagraph blockquote { margin: 4% auto; font-style: italic; max-width: 70%; }
+div#block1 .blockParagraph blockquote span.quoteSig { font-style: normal; display: block; text-align: right; margin-top: 6%; }
+
+div#block3 { background: url("../img/paragraph-bg.png") no-repeat center; background-size: 100%; margin-bottom: 30px; }
+div#block3 h2 { font-size: 4em; letter-spacing: -.05em; margin: 50px auto 20px; line-height: .8em; text-align: center; }
+div#block3 h2 span { display: block; font-size: .5em; }
+div#block3 article { max-width: 80%; margin: 0 auto; }
+div#block3 article > div { display: inline-block; max-width: 45%; vertical-align: top; float: none; }
+div#block3 article p { margin: 10px 0; }
+
+div#block4 > img, div #block5 > img { display: block; }
+
+div#block4, div#block5 { display: block; position: relative; }
+div#block4 .imgCaption, div#block5 .imgCaption { background: rgba(250, 250, 250, 0.8); display: inline-block; position: absolute; margin: 10% 0 0; padding: 30px 30px 30px 10%; width: 50%; }
+@media (max-width: 1050px) { div#block4 .imgCaption, div#block5 .imgCaption { width: 100%; } }
+div#block4 h2, div#block5 h2 { font-size: 2em; margin-bottom: 15px; }
+
+div#block5 .imgCaption { padding: 30px 10% 30px 30px; position: absolute; right: 0; }
+
+div#block6 { padding: 50px 0; background: #e6e6e6; }
+div#block6 .photoBlock { margin: 90px auto; display: block; position: relative; max-width: 68%; }
+@media (max-width: 1050px) { div#block6 .photoBlock { max-width: 100%; } }
+div#block6 .imgCaption { max-width: 400px; width: 50%; background: #FFF; padding: 5%; display: inline-block; position: absolute; }
+div#block6 .photoBlock > div { top: 5%; }
+div#block6 .left { right: 0; }
+div#block6 .right { text-align: right; }
+div#block6 .right .imgCaption { left: 0; }
+
+div#block7 { margin: 90px auto; display: block; float: none; }
+div#block7 .imgBlock { margin-bottom: 30px; }
+div#block7 img { width: 49%; }
+
+/*# sourceMappingURL=style.css.map */
