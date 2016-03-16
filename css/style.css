@@ -115,7 +115,7 @@ div#block6 { padding: 50px 0; background: #e6e6e6; }
 div#block6 .photoBlock { margin: 90px auto; display: block; position: relative; max-width: 68%; }
 @media (max-width: 1050px) { div#block6 .photoBlock { max-width: 100%; } }
 div#block6 .imgCaption { max-width: 400px; width: 50%; background: #FFF; padding: 5%; display: inline-block; position: absolute; }
-div#block6 .photoBlock > div { top: 5%; }
+div#block6 .photoBlock > div { top: 8%; }
 div#block6 .left { right: 0; }
 div#block6 .right { text-align: right; }
 div#block6 .right .imgCaption { left: 0; }
